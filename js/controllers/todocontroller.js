@@ -1,4 +1,5 @@
 app.controller('todocontroller',function($scope){
+	$scope.title="Employee Details";
   $scope.x1 = "THIS IS AN test app";
   $scope.x2 = angular.lowercase($scope.x1);
   $scope.x3 = angular.uppercase($scope.x1);
